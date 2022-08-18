@@ -8,11 +8,19 @@ export default function App() {
       </div>
       <footer>
         This project was coded by Olya Po and is{" "}
-        <a href="https://github.com/OlhaPo/dictionary-project" target="_blank">
+        <a
+          href="https://github.com/OlhaPo/dictionary-project"
+          target="_blank"
+          rel="noreferrer"
+        >
           open-sourced on GitHub{" "}
         </a>
         and{" "}
-        <a href="https://playful-truffle-fafe7a.netlify.app/" target="_blank">
+        <a
+          href="https://playful-truffle-fafe7a.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           hosted on Netlify
         </a>
       </footer>
