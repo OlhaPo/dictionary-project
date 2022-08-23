@@ -4,6 +4,12 @@
   font-weight: bold;
 }
 
+.Meaning ul {
+  padding-left: 20px;
+
+  margin: 5px 0;
+}
+
 .Meaning .definition {
   font-size: 18px;
 }
@@ -13,5 +19,6 @@
   font-size: 16px;
   opacity: 0.7;
   color: #2c1338;
-  padding-left: 35px;
+  padding-left: 20px;
+  margin-bottom: 30px;
 }
