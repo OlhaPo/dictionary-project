@@ -1,15 +1,14 @@
 import Dictionary from "./Dictionary";
 import "./App.css";
+import dictionary from "./dictionary.png";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <i class="fa-solid fa-book-open-cover"></i>
-          Dictionary
+          <img src={dictionary} className="app-picture" alt="logo" />
         </header>
-
         <main>
           <Dictionary defaultKeyword="forest" />
         </main>
