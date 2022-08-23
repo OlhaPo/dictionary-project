@@ -5,10 +5,13 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header"></header>
+        <header className="App-header">
+          <i class="fa-solid fa-book-open-cover"></i>
+          Dictionary
+        </header>
 
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="forest" />
         </main>
         <footer className="App-footer">
           This project was coded by Olya Po and is{" "}
